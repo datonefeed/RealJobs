@@ -1,0 +1,1094 @@
+@media only screen and (max-width: 1200px) {
+    .banner .item {
+        min-height: 480px;
+    }
+    .email {
+        background: none;
+        background-color: #FFF;
+        min-height: auto;
+    }
+    .event {
+        background: none;
+        background-color: #f5f5f5;
+        min-height: auto;
+    }
+    .register_job {
+        background: none;
+        background-color: #FFF;
+        min-height: auto;
+    }
+    .loginPopup .formPopup {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .footer .footer_copyright {
+        text-align: start;
+        margin-top: 5px;
+    }
+    .search .advanced_search {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .search .advanced_search i {
+        left: 0;
+        font-size: 13px;
+    }
+    .left_page .pagination li {
+        min-width: 30px;
+        padding: 6px 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner .nivo-caption .slide-h2 {
+        font-size: 38px;
+    }
+    .app_mobile {
+        min-height: 485px;
+    }
+    .profile_student .student_other .list_other .item {
+        display: block;
+        text-align: center;
+    }
+    .profile_student .student_other .list_other .item img {
+        margin: 0;
+    }
+    .profile_student .student_other .list_other .item .block {
+        margin-top: 10px;
+    }
+    .submitPopupApplication .formSubmitApplication {
+        width: 60%;
+    }
+    /* ReadJobs_News */
+    .news-section .news-box .hd-last .news-item:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .header-menu .box_menu {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header-menu .login {
+        right: 80px;
+    }
+    .navigation {
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        right: -400px;
+        top: 0;
+        overflow: visible;
+        background-color: #fff;
+        border-right: 1px solid #757474;
+        z-index: 9999;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        transition-duration: .8s;
+        transition-timing-function: ease;
+    }
+    .title_name {
+        padding: 0 100px;
+    }
+    .title_name_noresize {
+        padding: 0;
+    }
+    .navigation-dtu .nav-dtu {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .navigation-dtu .nav-dtu li {
+        /*padding: 10px 20px;*/
+        text-align: left;
+        width: 100% !important;
+        border-top: 1px solid #f0f0f0;
+    }
+    .navigation-dtu .nav-dtu li a {
+        padding: 10px 20px;
+        color: #000;
+    }
+    .navigation-dtu .nav-dtu>li:first-child a {
+        padding: 10px 20px;
+    }
+    .navigation-dtu .nav-dtu li .nav-dtu-child {
+        display: none !important;
+    }
+    .icon_menu_repo,
+    .icon_menu_inpo {
+        display: inline-block;
+    }
+    .icon_menu_repo i,
+    .icon_menu_inpo i {
+        z-index: 9999;
+    }
+    i.show_menu_icon {
+        display: block;
+    }
+    i.show_hide_icon {
+        display: none;
+    }
+    i.fa-times {
+        color: #c61330;
+    }
+    .content_profile .box_item .check {
+        padding-left: 25px;
+    }
+    .content_profile .box_item {
+        margin: 0 4%;
+    }
+    .job_list .item_job {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .search {
+        display: none;
+        padding: 20px 0;
+        z-index: 9999;
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .icon_search {
+        display: block;
+    }
+    .search .text_search,
+    .search .area_search {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    /*.search .advanced_search {
+        padding-left: 20px;
+        margin-top: 0;
+    }
+
+        .search .advanced_search i {
+            left: 20px;
+        }*/
+    .job .item_job img {
+        max-width: 50%;
+    }
+    .profile_student .box_item .group_check {
+        display: block;
+    }
+    .profile_student .box_item .check {
+        padding-left: 0;
+        display: block;
+        margin-top: 8px;
+    }
+    .profile_student .job_content .detail_box .box_collum .box1 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .box_login .link_login {
+        font-size: 18px;
+    }
+    .profile_student .curriculum_vitae .curriculum .item_cv {
+        width: 50%;
+    }
+    .profile_student .curriculum_vitae .file_upload .drag_text {
+        padding: 60px 30px;
+    }
+    .schedule .box_collum {
+        width: 100%;
+    }
+    .submitPopup .box_submit .rdoption .cv_available .item_img_cv .box_cv {
+        padding: 10px;
+    }
+    .submitPopupApplication .formSubmitApplication {
+        width: 80%;
+    }
+    .tabs-section .box-nav-tabs .all-tab ul {
+        display: none;
+    }
+    .news-section .news-box .tabs-section .box-nav-tabs .all-tab {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        width: 150%;
+    }
+    .news-section .news-box .tabs-section .box-nav-tabs ul.nav-desktop {
+        background-color: #fff;
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .news-section .news-box .tabs-section .box-nav-tabs ul.nav-more {
+        position: relative;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width:823px) {
+    .banner .item {
+        min-height: 390px;
+    }
+    .employer {
+        background: none;
+    }
+    .title_name {
+        font-size: 26px;
+        padding: 0 90px;
+    }
+    .app_mobile {
+        min-height: 390px;
+    }
+    .content_profile .title_info {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .title_name_noresize {
+        padding: 0;
+    }
+    .content_profile .box_item {
+        margin: 0;
+    }
+    .box_item p {
+        margin-bottom: 0.6rem;
+    }
+    /*.search .advanced_search {
+        padding-left: 0;
+        clear: both;
+        width: 100%;
+        margin-top:5px;
+    }
+    .search .box_search .boxsearch{
+        margin-bottom:5px;
+    }*/
+    .profile_student .info_profile .pt1 .pt2 {
+        width: 80%;
+    }
+    .profile_student .info_profile .info {
+        padding-top: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .profile_student .social li a i {
+        font-size: 22px;
+        padding: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    .profile_student .box_employer .contact p {
+        width: 100%;
+    }
+    .profile_student .box_employer {
+        padding: 25px 25px 5px;
+    }
+    .padding_30 {
+        padding: 25px 25px;
+    }
+    .profile_student .box_item .box {
+        padding: 25px 25px 20px;
+    }
+    .profile_student .box_item .staff {
+        padding: 20px 17px;
+    }
+    .profile_student .title_right {
+        padding: 25px 25px 20px;
+    }
+    .profile_student .box_recruit .item {
+        padding: 15px 25px;
+    }
+    .profile_student .box_recruit .view_all {
+        padding: 20px 25px;
+    }
+    .profile_student .student_other h3 {
+        padding: 0 25px 20px;
+    }
+    .profile_student .student_other .list_other .item {
+        padding: 10px 25px;
+    }
+    .profile_student .completion {
+        padding: 25px 25px;
+    }
+    .profile_student .content_info {
+        padding: 25px 25px 10px;
+    }
+    .event_content .item_event .box_img1 {
+        flex: 0 0 40%;
+    }
+    .event_content .item_event .box_event {
+        flex: 0 0 60%;
+    }
+    .event_content .item_event .img_event img {
+        width: 100%;
+    }
+    /* ReadJobs_News */
+    .news-section .news-box .news-title-cat {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .search .box_search {
+        display: block;
+    }
+    .search .advanced_search,
+    .search .btt_search {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .profile_student .social li {
+        padding-right: 0;
+    }
+    .width60 {
+        width: 100%;
+    }
+    /* 0903 */
+    .job-content-box .job-content .job-content-info .day-date {
+        flex-wrap: wrap;
+    }
+    .job-content-box .job-content .job-content-info .day-date .date-item {
+        width: 100%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .box_main {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-height: max-content;
+    }
+    .col_left {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col_right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col_right .header {
+        margin-top: 1rem;
+    }
+    .app_mobile {
+        min-height: 345px;
+    }
+    .title_name {
+        font-size: 22px;
+        padding: 0 50px;
+    }
+    .title_name_noresize {
+        padding: 0;
+    }
+    .email .title_name {
+        font-size: 20px;
+    }
+    .email .box_email .info_img {
+        display: none;
+    }
+    .email .box_email .info_email {
+        padding-left: 15px;
+    }
+    .footer .title_white {
+        font-size: 20px;
+    }
+    .footer .menu_footer li a,
+    .footer .box_footer p {
+        font-size: 14px;
+    }
+    .banner .item {
+        min-height: 330px;
+    }
+    .banner .nivo-caption .slide-h2 {
+        font-size: 28px;
+    }
+    .student {
+        padding: 2rem 0;
+    }
+    .content_profile .box_item .check {
+        padding-left: 0;
+        display: block;
+        margin-top: 8px;
+    }
+    .header_profile .box_header .title_header {
+        margin-right: 20px;
+        max-width: 130px;
+    }
+    .search .advanced_search,
+    .search .btt_search {
+        width: 100%;
+    }
+    .search .advanced_search {
+        padding-left: 0;
+    }
+    .search .advanced_search i {
+        display: none;
+    }
+    .search .btt_search .btt_register {
+        width: 100%;
+    }
+    .search .advanced_search .btt_advanced {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .hide_mobile {
+        display: none;
+    }
+    .profile_student .info_profile .info {
+        padding-top: 120px;
+    }
+    .profile_student .student_other .list_other .item {
+        display: flex;
+        text-align: left;
+    }
+    .profile_student .student_other .list_other .item img {
+        margin-right: 15px;
+    }
+    .box_login .padding_left,
+    .box_login .padding_right {
+        margin: 0;
+    }
+    .box_login .item_login .box-title {
+        padding: 20px;
+    }
+    .box_login .item_login .box-title ul li {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .box_login .link_login {
+        font-size: 15px;
+    }
+    .event_left {
+        margin-top: 30px;
+        margin-left: 0;
+        height: auto;
+        overflow-y: inherit;
+    }
+    .search .box_advanced .check {
+        padding-right: 15px;
+    }
+    .profile_student .curriculum_vitae .curriculum .item_cv {
+        width: 25%;
+    }
+    .register_job .box_email .info_img {
+        display: none;
+    }
+    .register_job .box_email .info_email {
+        padding-left: 15px;
+    }
+    .btt_click {
+        display: flex;
+        align-items: center;
+    }
+    .btt_click .follow {
+        margin-left: 20px;
+    }
+    .list_sub .box_item .box {
+        display: block;
+    }
+    .list_sub .box_item .box .btt_sub {
+        display: block;
+        margin-top: 20px;
+    }
+    .submitPopup .box_submit .rdoption .cv_available .cv_box .cv_item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    /* 0903 */
+    .job-share {
+        margin-top: 20px;
+    }
+    .job-content-box .job-content .job-content-info .day-date .date-item {
+        width: 50%;
+    }
+    .job_list .item-container {
+        padding-right: 0px;
+        margin: auto;
+    }
+    .job-carousel {
+        padding: 0;
+        text-align: center;
+    }
+    .event .event_content .item_event {
+        margin-right: 0px;
+        margin: auto;
+    }
+    /* ReadJobs_News */
+    .tab-content .hd-last .item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .tab-content .hd-last .item:last-child {
+        display: none;
+    }
+    .news-section .news-box .news-box-list .news-item {
+        display: inline-block;
+    }
+    .news-section .news-box .news-box-list .news-item figure {
+        float: left;
+        margin-bottom: 10px;
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .interview .col1 {
+        margin-right: 40px;
+    }
+    .interview .col2 {
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer .title_white {
+        font-size: 18px;
+    }
+    .footer .menu_footer {
+        margin-left: -15px;
+    }
+    .footer .menu_footer li {
+        padding: 5px;
+    }
+    .title_name {
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .title_name_noresize {
+        padding: 0;
+    }
+    .email .title_name {
+        font-size: 18px;
+    }
+    .student .box_student {
+        padding-top: 1rem;
+    }
+    .header-menu .login {
+        right: 60px;
+    }
+    .job .btt_link {
+        flex-wrap: wrap;
+    }
+    .job .link_all .btt_apply {
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .link_all .btt_2 {
+        width: 100%;
+    }
+    .job .link_all .btt_save {
+        width: 100%;
+        justify-content: center;
+    }
+    .job .link_all .btt_save:first-child {
+        margin-left: 0;
+    }
+    .job_list .item_job {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .job .job_content .detail_title {
+        font-size: 22px;
+    }
+    .job .job_other .box_other .item_job {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+        border: none;
+    }
+    .box_login .padding_left,
+    .box_login .padding_right {
+        margin-bottom: 15px;
+    }
+    .university .university-carousel .item img {
+        width: 20%;
+    }
+    .profile_student .box_employer .contact_event p {
+        display: block;
+    }
+    .interview {
+        display: block;
+    }
+    .interview .col2 {
+        display: inline-block;
+    }
+    .schedule .box_collum {
+        display: block;
+    }
+    .schedule .box_collum .item_flex {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .submitPopupApplication .formSubmitApplication {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .logo {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .language {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .item_employer {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .app_mobile {
+        background: none;
+        background-color: #f5f5f5;
+        min-height: auto;
+        margin-top: 0;
+    }
+    .employer .viewmore {
+        margin-bottom: 0;
+    }
+    .footer .menu_footer {
+        margin-left: 0;
+    }
+    .footer .menu_footer li:first-child {
+        padding: 0;
+    }
+    .employer {
+        padding: 2rem 0;
+    }
+    .email {
+        padding: 2rem 0;
+    }
+    .select_date input[type="text"] {
+        width: 40%;
+    }
+    .box_height {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+    .info_employer .about_employer {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .btt_click {
+        display: block;
+    }
+    .btt_click .follow {
+        margin-left: 0;
+    }
+    .schedule .detail_title {
+        font-size: 22px;
+    }
+    /* 0903 */
+    .job-content-box .job-content .job-content-info .day-date .date-item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .item_employer {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .language {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .menu_top {
+        flex-direction: column-reverse;
+    }
+    .header-menu .box_title .logo-dtu {
+        max-width: 160px;
+    }
+    .header-menu .login {
+        right: 50px;
+    }
+    .header-menu .login li a {
+        font-size: 14px;
+    }
+    .icon_menu_repo i,
+    .icon_menu_inpo i {
+        font-size: 26px;
+    }
+    .search .box_advanced .check {
+        display: block;
+    }
+    .profile_student .job_content .detail_box .box_collum .box1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .profile_student .box_item .title_info {
+        font-size: 18px;
+    }
+    .profile_student .job_content .detail_title {
+        font-size: 18px;
+    }
+    .info_employer .about_employer p {
+        padding: 0;
+    }
+    .profile_student .box_item .box_btt {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .profile_student .box_item .box_btt [type="button"],
+    .profile_student .box_item .box_btt [type="submit"] {
+        width: 100%;
+    }
+    .profile_student .box_item .box_btt img {
+        display: none;
+    }
+    textarea {
+        height: 200px;
+    }
+    .profile_student .box_changepass .form-group {
+        width: 100%;
+    }
+    .submitPopup .box_submit .rdoption .cv_available .cv_box .cv_item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* ReadJobs_News */
+    .news-section .news-name {
+        font-size: 18px;
+    }
+    .tab-content .hd-last .item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .tab-content .hd-last .item:last-child {
+        display: block;
+    }
+    .news-section .news-box .tab-content .item .news-info {
+        border-bottom: 1px solid #cccccc;
+    }
+    .news-section .news-box .tab-content .item:last-child .news-info {
+        border-bottom: none;
+    }
+    .news-section .news-box .news-contact {
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .select_date input[type="text"] {
+        width: 100%;
+    }
+    .select_date span {
+        width: 100%;
+        padding: 5px 0;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .footer .menu_footer li a,
+    .footer .box_footer p {
+        font-size: 13px;
+    }
+    .banner .nivo-caption .slide-h2 {
+        font-size: 24px;
+    }
+    .search .check_time {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .search .check_time label {
+        width: 100%;
+        text-align: center;
+    }
+    .message .box_mess {
+        display: none;
+    }
+    .profile_student .info_profile .pt1 {
+        top: -100px;
+    }
+    .profile_student .info_profile .pt1 .pt2 {
+        width: 50%;
+    }
+    .profile_student .info_profile .info {
+        padding-top: 100px;
+    }
+    .event_content .item_event {
+        flex-wrap: wrap;
+    }
+    .event_content .item_event .box_img1 {
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
+    .event_content .item_event .box_event {
+        flex: 0 0 100%;
+    }
+    .profile_student .box_item .btt_register {
+        width: 100%;
+    }
+    .profile_student .box_item .btt_cancel {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    /* ReadJobs_News */
+    .news-section .news-box .news-box-list .news-item figure {
+        float: inherit;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .news-section .news-box .news-box-skill {
+        display: block;
+    }
+    .news-section .news-box .view_all {
+        display: block;
+        text-align: right;
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .box-menu-fix ul li {
+        padding-right: 10px;
+    }
+    .header-menu .box_title .logo-dtu {
+        max-width: 130px;
+        padding-right: 1rem;
+    }
+    .header-menu .login {
+        right: 40px;
+    }
+    .icon_menu_repo {
+        top: 0;
+    }
+    .icon_menu_repo i,
+    .icon_menu_inpo i {
+        font-size: 22px;
+    }
+    .title_name {
+        font-size: 18px;
+        padding: 0;
+    }
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text_icon {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .search .advanced_search {
+        padding-left: 0;
+        clear: both;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .title_job {
+        font-size: 22px;
+    }
+    .profile_student .info_profile .pt1 {
+        top: -75px;
+    }
+    .display_flex {
+        display: block;
+    }
+    .time_interview {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    /* 0903 */
+    .job-content-box .job-content .job-content-detail .detail-box .item {
+        width: 1000%;
+    }
+    .profile_student .box_employer .unit-info .unit-name {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .box-menu-fix ul li {
+        padding-right: 5px;
+    }
+    .box-menu-fix ul li a {
+        font-size: 12px;
+    }
+    .header-menu .box_title .logo-dtu {
+        max-width: 100px;
+        padding-right: 1rem;
+    }
+    .header-menu .login {
+        right: 25px;
+    }
+    .header-menu .login li a {
+        font-size: 13px;
+    }
+    .header_profile .box_header .box_exit {
+        padding-left: 5px;
+    }
+    .profile_student .box_item .box {
+        display: block;
+    }
+    .box_height {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .profile_student .box_item .box .view_return {
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .profile_student .box_item .box_btt [type="button"],
+    .profile_student .box_item .box_btt [type="submit"] {
+        font-size: 13px;
+    }
+    .profile_student .box_item .title_info {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-height:676px) {
+    .loginPopup .formPopup {
+        overflow-y: scroll;
+        /*max-height: 100vh;*/
+        max-height: calc(100vh - 30px);
+    }
+    .submitPopup .formSubmit {
+        overflow-y: scroll;
+        max-height: calc(100vh - 30px);
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .loginPopup .formPopup {
+        overflow-y: scroll;
+        /*max-height: 100vh;*/
+        max-height: calc(100vh - 30px);
+    }
+    .submitPopup .formSubmit {
+        overflow-y: scroll;
+        max-height: calc(100vh - 30px);
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .submitPopup .formSubmit {
+        overflow-y: scroll;
+        max-height: calc(100vh - 30px);
+    }
+}
+
+@media only screen and (max-width:991px) and (min-height:1180px) {
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 38%;
+    }
+    .job .job_other {
+        padding-bottom: 80px;
+    }
+}
+
+/*VINH*/
+
+.vinhpop .titlesubmit {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.vinhpop .titlesubmit .title_job {
+    padding: 25px 30px 15px;
+    margin: 0;
+    font-family: var(--font-family-MontserratBold);
+}
+
+.vinhpop .titlesubmit .close {
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.vinhpop .box_submit .name_info {
+    font-family: var(--font-family-MontserratBold);
+}
+
+.vinhpop .darknessSubmit {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #CECECE;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9997;
+}
+
+.vinhpop .formSubmit {
+    display: none;
+    position: fixed;
+    background: #fff;
+    border: 1px solid #1a1a1a;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9998;
+    border-radius: 8px;
+}
+
+.loginPopup .formPopup .title_job {
+    padding-right: 30px;
+}
+
+.vinhpop .titlesubmit {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.vinhpop .titlesubmit .title_job {
+    padding: 25px 30px 15px;
+    margin: 0;
+    font-family: var(--font-family-MontserratBold);
+}
+
+.vinhpop .titlesubmit .close {
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.vinhpop .box_submit .name_info {
+    font-family: var(--font-family-MontserratBold);
+}
+
+.vinhpop .darknessSubmit {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid #CECECE;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9997;
+}
+
+.vinhpop .formSubmit {
+    display: none;
+    position: fixed;
+    background: #fff;
+    border: 1px solid #1a1a1a;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9998;
+    border-radius: 8px;
+}
